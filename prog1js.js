@@ -5,7 +5,6 @@ var renderer = null,
 	animating = true;
     ballHolder = new Array();
     xVelocityHolder = new Array(), yVelocityHolder = new Array(), zVelocityHolder = new Array();
-    console.log("");
 
 THREE.ImageUtils.crossOrigin = "Anonymous";
 
@@ -96,6 +95,8 @@ function createBall()
 //main function
 function onLoad()
 {
+    var input = prompt("What is your name?");
+    alert("Hello "  + input + " enjoy the show");
     cameras();// add cameras to the container
     box(); // add cube to the container
     myBall = createBall();// create first ball
