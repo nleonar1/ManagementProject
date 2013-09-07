@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bouncing Ball</title>
+
+<link rel="stylesheet" href="css/webglbook.css" /> 
+<script src="Three.js"></script>
+<script src="RequestAnimationFrame.js"></script>
+<script src="prog1js.js"></script>
+</head>
+
+<body onLoad="onLoad();" style="">
+<center><h1>Bouncing Ball</h1></center>
+<div id="container" style="width:95%; height:80%; position:absolute;"></div>
+<div id="prompt" style="width:95%; height:auto; bottom:0; text-align:center; position:absolute;">
+<button onClick="addSphere()"> Add Ball</button>
+<input type="button" value="Pause" id="pause" onclick="pause();">
+<button onClick="reset()"> Reset</button>
+<p>Leonard Niyonkuri</p>
+</div>
+</body>
+</html>
